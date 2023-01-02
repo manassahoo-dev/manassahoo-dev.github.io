@@ -1,21 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const data = {
+    title: '',
+    result: [
+      {
+        website: 'https://soovle.com/',
+      },
+    ],
+  };
   return (
     <div className='App'>
-      <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <p>Hello World!</p>
-        <a
-          className='App-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hey, I'm Manas 👋</h1>
+      <h3>Front End Developer based in Hyderabad, India</h3>
+      <footer>Manas Sahoo</footer>
     </div>
   );
 }
