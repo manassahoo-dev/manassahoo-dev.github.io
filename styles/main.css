@@ -63,3 +63,9 @@ img.next-image {
 .nav-line .nav-link {
   color: #69778c;
 }
+.nav-line {
+  justify-content: start;
+}
+article {
+  padding: 4rem 0;
+}
