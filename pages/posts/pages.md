@@ -249,3 +249,21 @@ We've discussed two forms of pre-rendering for Next.js.
 8. Find K Closest Elements
 9. First Bad Version
 10. Kth Smallest Element in a Sorted Matrix
+
+## list of sorting related problems on LeetCode
+
+1. Merge Two Sorted Lists
+2. Sort List
+3. Sort Colors
+4. Merge Sorted Array
+5. Kth Largest Element in an Array
+6. Sort Array By Parity
+7. Sort Integers by The Number of 1 Bits
+8. Relative Sort Array
+9. Valid Anagram
+10. Top K Frequent Words
+11. Merge Intervals
+12. Minimum Number of Arrows to Burst Balloons
+13. Find K Pairs with Smallest Sums
+14. Meeting Rooms II
+15. Task Scheduler
