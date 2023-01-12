@@ -1,7 +1,7 @@
 ---
-type: posts
-title: Posts
+type: books
+title: Books
 date: 2021-03-18
 ---
 
-# Posts
+# Books
