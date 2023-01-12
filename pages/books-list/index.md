@@ -1,7 +1,7 @@
 ---
-type: books
-title: Books
+type: books-list
+title: Popular Books
 date: 2021-03-18
 ---
 
-# Books
+# Popular Programming Books
