@@ -8,13 +8,13 @@ author: Manas Sahoo
 
 `localStorage` and `sessionStorage` are web APIs that allow you to store key-value pairs of data in the browser. However, there are some key differences between the two:
 
-1. Persistence:
+1. **Persistence**:
    `localStorage` data is persisted even after the browser is closed, whereas `sessionStorage` data is cleared when the browser is closed.
 
-2. Scope:
+2. **Scope**:
    `localStorage` data is accessible to all windows and tabs of the same origin, whereas `sessionStorage` data is only accessible to the current window or tab.
 
-3. Size:
+3. **Size**:
    `localStorage` has a larger storage limit (typically around 5-10 MB) compared to `sessionStorage` (typically around 2-5 MB).
 
 ## When to use which one
