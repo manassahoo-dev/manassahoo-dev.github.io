@@ -1,7 +1,7 @@
 ---
-title: `localStorage` vs `sessionStorage`
+title: localStorage vs sessionStorage
 date: 2023/01/10
-description: `localStorage` vs `sessionStorage`
+description: localStorage vs sessionStorage
 tag: JavaScript
 author: Manas Sahoo
 ---
