@@ -17,7 +17,7 @@ author: Manas Sahoo
 3. Size:
    `localStorage` has a larger storage limit (typically around 5-10 MB) compared to `sessionStorage` (typically around 2-5 MB).
 
-When to use which one:
+## When to use which one
 
 - `localStorage` should be used when you want to store data that should be available even after the browser is closed, such as user preferences or login information.
 
