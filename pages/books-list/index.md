@@ -1,5 +1,5 @@
 ---
-type: books-list
+type: posts
 title: Popular Books
 date: 2021-03-18
 ---
