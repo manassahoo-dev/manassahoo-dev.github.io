@@ -1,7 +1,7 @@
 ---
 title: JavaScript Books
 date: 2023/01/10
-description: JavaScript Books
+description: Best JavaScript Books Recommended by the Professionals
 tag: JavaScript, Books
 author: Manas Sahoo
 ---
