@@ -8,15 +8,15 @@ author: Manas Sahoo
 
 ## Remote Jobs
 
-:zap: angel. co
-:zap:dice. com
-:zap:nodesk. co
-:zap:remotive. io
-:zap:flexjobs. com
-:zap:remoteok. com
-:zap:trulyremote. co
-:zap:freelancer. com
-:zap:showwcase. com
-:zap:remotehunt. com
-:zap:workingnomads. co
-:zap:weworkremotely. com
+1. angel.co
+2. dice.com
+3. nodesk.co
+4. remotive.io
+5. flexjobs.com
+6. remoteok.com
+7. trulyremote.co
+8. freelancer.com
+9. showwcase.com
+10. remotehunt.com
+11. workingnomads.co
+12. weworkremotely.com
