@@ -31,6 +31,11 @@ export default function Jobs() {
       title:
         'Remote Jobs in Programming, Design, Sales, and more #OpenSalaries',
       description: `Looking for a remote job? Remote OK® is the #1 Remote Job Board and has 294,142+ remote jobs as a Developer, Designer, Copywriter, Customer Support Rep, Sales Professional, Project Manager and more! Find a career where you can work remotely from anywhere.`
+    },
+    {
+      link: 'https://trulyremote.co',
+      title: 'Truly Remote: Work from Anywhere',
+      description: `TrulyRemote.co helps you find the right remote job and hire the most diverse talent across the globe.`
     }
   ]
   return (
