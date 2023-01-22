@@ -25,6 +25,12 @@ export default function Jobs() {
       link: 'https://www.flexjobs.com',
       title: 'FlexJobs: The Best Remote Jobs, Work from Home Jobs & More',
       description: `The #1 job site for hand-screened remote jobs (work from home jobs) since 2007. No ads, scams or junk. Discover a better online job search with FlexJobs!`
+    },
+    {
+      link: 'https://remoteok.com',
+      title:
+        'Remote Jobs in Programming, Design, Sales, and more #OpenSalaries',
+      description: `Looking for a remote job? Remote OK® is the #1 Remote Job Board and has 294,142+ remote jobs as a Developer, Designer, Copywriter, Customer Support Rep, Sales Professional, Project Manager and more! Find a career where you can work remotely from anywhere.`
     }
   ]
   return (
