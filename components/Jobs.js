@@ -58,6 +58,11 @@ export default function Jobs() {
       title:
         'Remote Leaf | Receive hand-picked remote jobs posted anywhere delivered straight to your inbox',
       description: `Remote Leaf aggregates remote jobs in one organized place from hundreds of remote job boards, company career pages, LinkedIn, Reddit, twitter, Facebook groups, and hacker news hiring.`
+    },
+    {
+      link: 'https://dailyremote.com',
+      title: 'Remote Jobs | DailyRemote',
+      description: `Looking for a remote job and want to work from home? Apply for top remote jobs in Software Development, Design, Support, Sales, Writing, Product, and Others. Apply now and start telecommuting & working from home today!`
     }
   ]
   return (
