@@ -36,6 +36,12 @@ export default function Jobs() {
       link: 'https://trulyremote.co',
       title: 'Truly Remote: Work from Anywhere',
       description: `TrulyRemote.co helps you find the right remote job and hire the most diverse talent across the globe.`
+    },
+    {
+      link: 'https://www.weworkremotely.com',
+      title:
+        'We Work Remotely: Remote jobs in design, programming, marketing and more',
+      description: `Find the most qualified people in the most unexpected places: Hire remote! We Work Remotely is the best place to find and list remote jobs that aren't restricted by commutes or a particular geographic area. Browse thousands of remote work jobs today.`
     }
   ]
   return (
