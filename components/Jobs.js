@@ -42,6 +42,11 @@ export default function Jobs() {
       title:
         'We Work Remotely: Remote jobs in design, programming, marketing and more',
       description: `Find the most qualified people in the most unexpected places: Hire remote! We Work Remotely is the best place to find and list remote jobs that aren't restricted by commutes or a particular geographic area. Browse thousands of remote work jobs today.`
+    },
+    {
+      link: 'https://remote.co',
+      title: 'Remote Work: Jobs, Companies & Virtual Teams - Remote.co',
+      description: `Remote.co is the definitive remote work job board for online job seekers and companies hiring. Start your remote job search here!`
     }
   ]
   return (
