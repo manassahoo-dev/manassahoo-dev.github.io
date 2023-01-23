@@ -52,6 +52,12 @@ export default function Jobs() {
       link: 'https://justremote.co',
       title: 'Remote Jobs: Design, Marketing, Programming, Writing & More',
       description: `Discover Remote Jobs from around the world. Give up the commute, work remotely and do what you love, daily, from anywhere. Find your perfect remote development, design, sales, or marketing job today.`
+    },
+    {
+      link: 'https://remoteleaf.com',
+      title:
+        'Remote Leaf | Receive hand-picked remote jobs posted anywhere delivered straight to your inbox',
+      description: `Remote Leaf aggregates remote jobs in one organized place from hundreds of remote job boards, company career pages, LinkedIn, Reddit, twitter, Facebook groups, and hacker news hiring.`
     }
   ]
   return (
