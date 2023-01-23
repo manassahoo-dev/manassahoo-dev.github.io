@@ -73,7 +73,8 @@ export default function Jobs() {
             {item.link}
           </a>
           <h6>{item.title}</h6>
-          <p>{item.description}</p>
+          <p className="m-0 p-0">{item.description}</p>
+          <hr />
         </div>
       ))}
     </>
