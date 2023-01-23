@@ -47,6 +47,11 @@ export default function Jobs() {
       link: 'https://remote.co',
       title: 'Remote Work: Jobs, Companies & Virtual Teams - Remote.co',
       description: `Remote.co is the definitive remote work job board for online job seekers and companies hiring. Start your remote job search here!`
+    },
+    {
+      link: 'https://justremote.co',
+      title: 'Remote Jobs: Design, Marketing, Programming, Writing & More',
+      description: `Discover Remote Jobs from around the world. Give up the commute, work remotely and do what you love, daily, from anywhere. Find your perfect remote development, design, sales, or marketing job today.`
     }
   ]
   return (
