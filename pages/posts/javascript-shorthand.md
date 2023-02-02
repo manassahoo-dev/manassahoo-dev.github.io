@@ -31,3 +31,21 @@ c = 12
 //Shorthand
 let [a, b, c] = [5, 8, 12]
 ```
+
+3. The Ternary operator
+   We can save 5 lines of code here with the ternary (conditional) operator.
+
+```javascript
+let marks = 26
+
+//Longhand
+let result
+if (marks >= 30) {
+  result = 'Pass'
+} else {
+  result = 'Fail'
+}
+
+//Shorthand
+let result = marks >= 30 ? 'Pass' : 'Fail'
+```
