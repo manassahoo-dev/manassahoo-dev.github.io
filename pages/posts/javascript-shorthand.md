@@ -49,3 +49,23 @@ if (marks >= 30) {
 //Shorthand
 let result = marks >= 30 ? 'Pass' : 'Fail'
 ```
+
+4. Assigning a default value
+   We can use OR(||) short circuit evaluation or Nullish coalescing operator (??) to assign a default value to a variable in case the expected value is found falsy.
+
+```javascript
+//Longhand
+let imagePath
+let path = getImagePath()
+if (path !== null && path !== undefined && path !== '') {
+  imagePath = path
+} else {
+  imagePath = 'default.jpg'
+}
+
+//Shorthand 1
+let imagePath = getImagePath() || 'default.jpg'
+
+//Shorthand 2
+let imagePath = getImagePath() ?? 'default.jpg'
+```
