@@ -26,10 +26,12 @@ This book is a comprehensive introduction to the language and its features, and 
 This book is considered one of the most comprehensive and authoritative resources on JavaScript, covering all aspects of the language and its use.
 
 **You Don't Know JS series** by Kyle Simpson:
+<img src="/images/You Don't Know JS.jpg" alt="alt text" width="100"/>
 
 This book series is designed to take readers from a basic understanding of the language to an advanced level of knowledge and provides in-depth coverage of key concepts and features.
 
 **JavaScript Patterns** by Stoyan Stefanov:
+<img src="/images/JavaScript Patterns.png" alt="alt text" width="100"/>
 
 This book covers best practices and design patterns for writing efficient and maintainable JavaScript code and is a must-read for developers looking to improve their skills.
 
