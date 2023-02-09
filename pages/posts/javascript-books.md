@@ -16,10 +16,12 @@ author: Manas Sahoo
 This book is considered a classic in the JavaScript community and covers the core of the language, including its best features and how to use them.
 
 **Eloquent JavaScript** by Marijn Haverbeke:
+<img src="/images/Eloquent JavaScript.jpeg" alt="alt text" width="100"/>
 
 This book is a comprehensive introduction to the language and its features, and is written in a clear and readable style.
 
 **JavaScript: The Definitive Guide** by David Flanagan:
+<img src="/images/JavaScript: The Definitive Guide.jpeg" alt="alt text" width="100"/>
 
 This book is considered one of the most comprehensive and authoritative resources on JavaScript, covering all aspects of the language and its use.
 
