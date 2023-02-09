@@ -11,6 +11,7 @@ author: Manas Sahoo
 ---
 
 **JavaScript: The Good Parts** by Douglas Crockford:
+<img src="/images/JavaScript%3A%20The%20Good%20Parts.png" alt="alt text" width="100"/>
 
 This book is considered a classic in the JavaScript community and covers the core of the language, including its best features and how to use them.
 
