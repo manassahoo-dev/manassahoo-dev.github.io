@@ -4,18 +4,17 @@ Given the head of a singly linked list, reverse the list, and return the reverse
 
 ```java
 class Solution {
-    public ListNode reverseList(ListNode head) {
-        ListNode prev = null;
-        ListNode current = head;
+  public ListNode reverseList(ListNode head) {
+    ListNode prev = null, curr = head, next;
 
-
-        while(current != null) {
-            ListNode next = current.next;
-            current.next = prev;
-            prev = current;
-            current = next;
-        }
-       return prev;
+    while (curr != null) {
+      next = curr.next; //to store next Node which is being DeLinked
+      curr.next = prev;
+      prev = curr;
+      curr = next;
     }
+
+    return prev;
+  }
 }
 ```
