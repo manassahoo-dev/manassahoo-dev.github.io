@@ -1,3 +1,5 @@
+Given a linked list which is sorted, how will you insert in sorted way
+
 ```java
 public class Solution{
     public Node insertSorted(Node head, int x){
