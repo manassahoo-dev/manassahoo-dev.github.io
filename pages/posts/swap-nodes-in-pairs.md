@@ -4,6 +4,8 @@ Given a linked list, swap every two adjacent nodes and return its head. You must
 
 <img src='https://assets.leetcode.com/uploads/2020/10/03/swap_ex1.jpg'>
 
+**Iterative Approach**
+
 ```java
 class Solution {
   public ListNode swapPairs(ListNode head) {
@@ -24,6 +26,26 @@ class Solution {
     }
 
     return dummy.next;
+  }
+}
+```
+
+**Recursive Approach**
+
+```java
+class Solution {
+  public ListNode swapPairs(ListNode head) {
+        if (head == null || head.next == null) {
+      return head;
+    }
+
+    ListNode firstNode = head;
+    ListNode secondNode = head.next;
+
+    firstNode.next = swapPairs(secondNode.next);
+    secondNode.next = firstNode;
+
+    return secondNode;
   }
 }
 ```
