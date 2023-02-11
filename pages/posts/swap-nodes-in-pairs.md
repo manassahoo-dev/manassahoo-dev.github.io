@@ -13,6 +13,7 @@ class Solution {
 
     dummy.next = head;
     ListNode prevNode = dummy, currNode = head;
+
     while (currNode != null && currNode.next != null) {
       ListNode firstNode = currNode;
       ListNode secondNode = currNode.next;
@@ -35,7 +36,7 @@ class Solution {
 ```java
 class Solution {
   public ListNode swapPairs(ListNode head) {
-        if (head == null || head.next == null) {
+    if (head == null || head.next == null) {
       return head;
     }
 
