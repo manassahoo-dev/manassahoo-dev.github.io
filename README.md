@@ -10,4 +10,4 @@ __Algorithm__
 - [javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
 - [tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook)
 - [interviews](https://github.com/kdn251/interviews)
-- [TheAlgorithms / JavaScript](https://github.com/TheAlgorithms/JavaScript)
+- [JavaScript](https://github.com/TheAlgorithms/JavaScript)
