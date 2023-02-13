@@ -5,5 +5,6 @@ This is a starter template for [Learn Next.js](https://nextjs.org/learn).
 - Nextra
 - Markdown
 
-
-https://github.com/jwasham/coding-interview-university
+__Algorithm__
+[coding-interview-university](https://github.com/jwasham/coding-interview-university)
+[javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
