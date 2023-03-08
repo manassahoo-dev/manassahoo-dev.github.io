@@ -10,23 +10,23 @@ function Footer() {
               Company
             </h2>
             <ul className='text-gray-500 dark:text-gray-400'>
-              <li className='mb-4'>
-                <a href='#' className=' hover:underline'>
+              <li className='mb-2'>
+                <a href='#' className=' hover:text-blue-700'>
                   About
                 </a>
               </li>
-              <li className='mb-4'>
-                <a href='#' className='hover:underline'>
+              <li className='mb-2'>
+                <a href='#' className='hover:text-blue-700'>
                   Careers
                 </a>
               </li>
-              <li className='mb-4'>
-                <a href='#' className='hover:underline'>
+              <li className='mb-2'>
+                <a href='#' className='hover:text-blue-700'>
                   Brand Center
                 </a>
               </li>
-              <li className='mb-4'>
-                <a href='#' className='hover:underline'>
+              <li className='mb-2'>
+                <a href='#' className='hover:text-blue-700'>
                   Blog
                 </a>
               </li>
@@ -37,23 +37,23 @@ function Footer() {
               Help center
             </h2>
             <ul className='text-gray-500 dark:text-gray-400'>
-              <li className='mb-4'>
-                <a href='#' className='hover:underline'>
+              <li className='mb-2'>
+                <a href='#' className='hover:text-blue-700'>
                   Discord Server
                 </a>
               </li>
-              <li className='mb-4'>
-                <a href='#' className='hover:underline'>
+              <li className='mb-2'>
+                <a href='#' className='hover:text-blue-700'>
                   Twitter
                 </a>
               </li>
-              <li className='mb-4'>
-                <a href='#' className='hover:underline'>
+              <li className='mb-2'>
+                <a href='#' className='hover:text-blue-700'>
                   Facebook
                 </a>
               </li>
-              <li className='mb-4'>
-                <a href='#' className='hover:underline'>
+              <li className='mb-2'>
+                <a href='#' className='hover:text-blue-700'>
                   Contact Us
                 </a>
               </li>
@@ -64,18 +64,18 @@ function Footer() {
               Legal
             </h2>
             <ul className='text-gray-500 dark:text-gray-400'>
-              <li className='mb-4'>
-                <a href='#' className='hover:underline'>
+              <li className='mb-2'>
+                <a href='#' className='hover:text-blue-700'>
                   Privacy Policy
                 </a>
               </li>
-              <li className='mb-4'>
-                <a href='#' className='hover:underline'>
+              <li className='mb-2'>
+                <a href='#' className='hover:text-blue-700'>
                   Licensing
                 </a>
               </li>
-              <li className='mb-4'>
-                <a href='#' className='hover:underline'>
+              <li className='mb-2'>
+                <a href='#' className='hover:text-blue-700'>
                   Terms &amp; Conditions
                 </a>
               </li>
@@ -86,23 +86,23 @@ function Footer() {
               Download
             </h2>
             <ul className='text-gray-500 dark:text-gray-400'>
-              <li className='mb-4'>
-                <a href='#' className='hover:underline'>
+              <li className='mb-2'>
+                <a href='#' className='hover:text-blue-700'>
                   iOS
                 </a>
               </li>
-              <li className='mb-4'>
-                <a href='#' className='hover:underline'>
+              <li className='mb-2'>
+                <a href='#' className='hover:text-blue-700'>
                   Android
                 </a>
               </li>
-              <li className='mb-4'>
-                <a href='#' className='hover:underline'>
+              <li className='mb-2'>
+                <a href='#' className='hover:text-blue-700'>
                   Windows
                 </a>
               </li>
-              <li className='mb-4'>
-                <a href='#' className='hover:underline'>
+              <li className='mb-2'>
+                <a href='#' className='hover:text-blue-700'>
                   MacOS
                 </a>
               </li>
