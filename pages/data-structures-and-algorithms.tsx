@@ -1,10 +1,18 @@
+import Head from 'next/head';
 import React from 'react';
 
 function DSA() {
   const list = ['Array', 'Linked List', 'Tree'];
   return (
     <div>
-      DSA
+      <Head>
+        <title>Data Structures And Algorithms </title>
+        <meta
+          name='description'
+          content='Data Structures And Algorithms'
+          key='desc'
+        />
+      </Head>
       {list.map((item) => (
         <>
           <a
