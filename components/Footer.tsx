@@ -11,22 +11,22 @@ function Footer() {
             </h2>
             <ul className='text-gray-500 dark:text-gray-400'>
               <li className='mb-2'>
-                <a href='#' className=' hover:text-blue-700'>
+                <a href='#' className=' link'>
                   About
                 </a>
               </li>
               <li className='mb-2'>
-                <a href='#' className='hover:text-blue-700'>
+                <a href='#' className='link'>
                   Careers
                 </a>
               </li>
               <li className='mb-2'>
-                <a href='#' className='hover:text-blue-700'>
+                <a href='#' className='link'>
                   Brand Center
                 </a>
               </li>
               <li className='mb-2'>
-                <a href='#' className='hover:text-blue-700'>
+                <a href='#' className='link'>
                   Blog
                 </a>
               </li>
@@ -38,22 +38,22 @@ function Footer() {
             </h2>
             <ul className='text-gray-500 dark:text-gray-400'>
               <li className='mb-2'>
-                <a href='#' className='hover:text-blue-700'>
+                <a href='#' className='link'>
                   Discord Server
                 </a>
               </li>
               <li className='mb-2'>
-                <a href='#' className='hover:text-blue-700'>
+                <a href='#' className='link'>
                   Twitter
                 </a>
               </li>
               <li className='mb-2'>
-                <a href='#' className='hover:text-blue-700'>
+                <a href='#' className='link'>
                   Facebook
                 </a>
               </li>
               <li className='mb-2'>
-                <a href='#' className='hover:text-blue-700'>
+                <a href='#' className='link'>
                   Contact Us
                 </a>
               </li>
@@ -65,17 +65,17 @@ function Footer() {
             </h2>
             <ul className='text-gray-500 dark:text-gray-400'>
               <li className='mb-2'>
-                <a href='#' className='hover:text-blue-700'>
+                <a href='#' className='link'>
                   Privacy Policy
                 </a>
               </li>
               <li className='mb-2'>
-                <a href='#' className='hover:text-blue-700'>
+                <a href='#' className='link'>
                   Licensing
                 </a>
               </li>
               <li className='mb-2'>
-                <a href='#' className='hover:text-blue-700'>
+                <a href='#' className='link'>
                   Terms &amp; Conditions
                 </a>
               </li>
@@ -87,22 +87,22 @@ function Footer() {
             </h2>
             <ul className='text-gray-500 dark:text-gray-400'>
               <li className='mb-2'>
-                <a href='#' className='hover:text-blue-700'>
+                <a href='#' className='link'>
                   iOS
                 </a>
               </li>
               <li className='mb-2'>
-                <a href='#' className='hover:text-blue-700'>
+                <a href='#' className='link'>
                   Android
                 </a>
               </li>
               <li className='mb-2'>
-                <a href='#' className='hover:text-blue-700'>
+                <a href='#' className='link'>
                   Windows
                 </a>
               </li>
               <li className='mb-2'>
-                <a href='#' className='hover:text-blue-700'>
+                <a href='#' className='link'>
                   MacOS
                 </a>
               </li>
