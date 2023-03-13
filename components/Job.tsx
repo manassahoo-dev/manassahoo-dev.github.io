@@ -52,7 +52,12 @@ export default function Job() {
         <div key={index} className=''>
           <hr />
           <a href={job.link} target='_blank' className='link active'>
-            <img src={job.link + '/favicon.ico'} />
+            <img
+              height='16'
+              width='16'
+              src={`http://www.google.com/s2/favicons?domain=${job.link}`}
+            />
+
             {job.name}
           </a>
           <p className='font-thin'>{job.description}</p>
