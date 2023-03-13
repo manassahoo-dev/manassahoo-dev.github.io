@@ -33,15 +33,10 @@ export default function Job() {
     <div>
       Job
       {list.map((job, index) => (
-        <div key={index}>
+        <div key={index} className=''>
           <hr />
-          <h1 className='font-medium'>{job.name}</h1>
-          <a
-            href={job.link}
-            target='_blank'
-            className='text-blue-500 hover:text-blue-700'
-          >
-            {job.link}
+          <a href={job.link} target='_blank' className='link active'>
+            {job.name}
           </a>
           <p className='font-thin'>{job.description}</p>
         </div>
