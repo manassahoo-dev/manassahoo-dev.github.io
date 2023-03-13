@@ -28,6 +28,22 @@ export default function Job() {
       description: `Remote jobs for Digital Working Nomads.
       Work remotely from your home or places around the world.`,
     },
+    {
+      name: 'angel.co',
+      link: 'https://angel.co',
+      description: `Remote jobs for Digital Working Nomads.
+      Work remotely from your home or places around the world.`,
+    },
+    {
+      name: 'remote.co',
+      link: 'https://remote.co',
+      description: `All Things Remote Work`,
+    },
+    {
+      name: 'JobBoardSearch',
+      link: 'https://jobboardsearch.com',
+      description: `Hand curated list of 424 job boards😀`,
+    },
   ];
   return (
     <div>
@@ -36,6 +52,7 @@ export default function Job() {
         <div key={index} className=''>
           <hr />
           <a href={job.link} target='_blank' className='link active'>
+            <img src={job.link + '/favicon.ico'} />
             {job.name}
           </a>
           <p className='font-thin'>{job.description}</p>
