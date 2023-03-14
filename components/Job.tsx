@@ -47,11 +47,13 @@ export default function Job() {
   ];
   return (
     <div>
-      Job
+      Job WeWorkRemotely ✅ AngelList ✅ Toptal ✅ Upwork ✅ Fiverr ✅ Flexjobs
+      ✅ Remote. Co ✅ Romotive ✅ JustRemote ✅ DynamiteJobs ✅ Remocate ✅
+      Himalayas ✅ JS remotely ✅ Remotehunt ✅ Cuvette
       {list.map((job, index) => (
         <div key={index} className=''>
           <hr />
-          <a href={job.link} target='_blank' className='link active'>
+          <a href={job.link} target='_blank' className='link active flex'>
             <img
               height='16'
               width='16'
@@ -60,7 +62,7 @@ export default function Job() {
 
             {job.name}
           </a>
-          <p className='font-thin'>{job.description}</p>
+          {/* <p className='font-thin'>{job.description}</p> */}
         </div>
       ))}
     </div>
