@@ -74,11 +74,29 @@ export default function Job() {
       link: 'https://justremote.co',
       description: `Remote Jobs That Fit Your Life`,
     },
+    {
+      name: 'dynamitejobs',
+      link: 'https://dynamitejobs.com',
+      description: `Find Your Next Remote Job Today.`,
+    },
+    {
+      name: 'remocate',
+      link: 'https://www.remocate.app',
+      description: `Find a job and work remotely from anywhere or relocate to your dream country`,
+    },
+    {
+      name: 'remotely',
+      link: 'https://www.remotely.jobs',
+      description: `Remote Jobs That Fit Your Life`,
+    },
+    {
+      name: 'remotehunt',
+      link: 'https://remotehunt.com',
+      description: `Remote Jobs That Fit Your Life`,
+    },
   ];
   return (
     <div>
-      ✅ DynamiteJobs ✅ Remocate ✅ Himalayas ✅ JS remotely ✅ Remotehunt ✅
-      Cuvette
       {list.map((job, index) => (
         <div key={index} className=''>
           <hr />
@@ -86,6 +104,7 @@ export default function Job() {
             <img
               height='16'
               width='16'
+              className='p-1'
               src={`http://www.google.com/s2/favicons?domain=${job.link}`}
             />
 
