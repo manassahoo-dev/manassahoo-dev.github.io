@@ -100,15 +100,13 @@ export default function Job() {
       {list.map((job, index) => (
         <div key={index} className=''>
           <hr />
-          <a href={job.link} target='_blank' className='link active flex'>
+          <a href={job.link} target='_blank' className='link active flex m-2'>
             <img
               height='16'
               width='16'
-              className='p-1'
               src={`http://www.google.com/s2/favicons?domain=${job.link}`}
             />
-
-            {job.name}
+            <span className='ml-2'>{job.name}</span>
           </a>
           {/* <p className='font-thin'>{job.description}</p> */}
         </div>
