@@ -44,12 +44,41 @@ export default function Job() {
       link: 'https://jobboardsearch.com',
       description: `Hand curated list of 424 job boards😀`,
     },
+    {
+      name: 'Toptal',
+      link: 'https://www.toptal.com',
+      description: `Hire the Top 3% of Freelance Talent®`,
+    },
+    {
+      name: 'upwork',
+      link: 'https://www.upwork.com',
+      description: `Hire the Top 3% of Freelance Talent®`,
+    },
+    {
+      name: 'fiverr',
+      link: 'https://www.fiverr.com',
+      description: `Find the perfect freelance services for your business`,
+    },
+    {
+      name: 'Flexjobs',
+      link: 'https://www.flexjobs.com',
+      description: `The #1 job site to find remote jobs - no ads, scams, or junk. Find your next flexible, hybrid, or work from home job.`,
+    },
+    {
+      name: 'remotive',
+      link: 'https://remotive.com',
+      description: `Find your dream remote job without the hassle`,
+    },
+    {
+      name: 'JustRemote',
+      link: 'https://justremote.co',
+      description: `Remote Jobs That Fit Your Life`,
+    },
   ];
   return (
     <div>
-      Job WeWorkRemotely ✅ AngelList ✅ Toptal ✅ Upwork ✅ Fiverr ✅ Flexjobs
-      ✅ Remote. Co ✅ Romotive ✅ JustRemote ✅ DynamiteJobs ✅ Remocate ✅
-      Himalayas ✅ JS remotely ✅ Remotehunt ✅ Cuvette
+      ✅ DynamiteJobs ✅ Remocate ✅ Himalayas ✅ JS remotely ✅ Remotehunt ✅
+      Cuvette
       {list.map((job, index) => (
         <div key={index} className=''>
           <hr />
