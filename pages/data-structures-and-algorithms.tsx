@@ -2,7 +2,7 @@ import Head from 'next/head';
 import React from 'react';
 
 function DSA() {
-  const list = ['Array', 'Linked List', 'Tree'];
+  const list = ['Array', 'Linked List', 'Stack', 'Queue', 'Tree'];
   return (
     <div>
       <Head>
