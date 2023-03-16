@@ -106,9 +106,11 @@ export default function Job() {
               width='16'
               src={`http://www.google.com/s2/favicons?domain=${job.link}`}
             />
-            <span className='ml-2'>{job.name}</span>
+            <span className='ml-2'>
+              {index + 1}. {job.name}
+            </span>
           </a>
-          {/* <p className='font-thin'>{job.description}</p> */}
+          <p className='font-thin'>{job.description}</p>
         </div>
       ))}
     </div>
