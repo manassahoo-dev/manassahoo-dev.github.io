@@ -14,8 +14,9 @@ function DSA() {
         />
       </Head>
       <div className='flex gap-4 justify-between'>
-        {list.map((item) => (
+        {list.map((item, index) => (
           <a
+            key={index}
             href='#'
             className='block max-w-sm p-4  bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700'
           >
