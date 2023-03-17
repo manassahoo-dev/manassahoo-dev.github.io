@@ -96,7 +96,7 @@ export default function Job() {
     },
   ];
   return (
-    <div>
+    <div className='grid grid-cols-4 gap-4'>
       {list.map((job, index) => (
         <div key={index} className=''>
           <hr />
