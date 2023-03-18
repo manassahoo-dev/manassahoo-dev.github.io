@@ -1,3 +1,5 @@
+import { Button, Card, Image, Link, Text } from '@geist-ui/core';
+
 export default function Job() {
   const list = [
     {
@@ -96,19 +98,17 @@ export default function Job() {
   return (
     <div className='grid grid-cols-4 gap-4'>
       {list.map((job, index) => (
-        <div key={index} className=''>
-          <hr />
-          <a href={job.link} target='_blank' className='link active flex m-2'>
-            <img
-              height='16'
-              width='16'
-              src={`http://www.google.com/s2/favicons?domain=${job.link}`}
-            />
-            <span className='ml-2'>
-              {index + 1}. {job.name}
-            </span>
-          </a>
-          <p className='font-thin'>{job.description}</p>
+        <div key={index}>
+          <Image.Browser url={job.link} anchorProps={{ rel: 'nofollow' }}>
+            <Link href={job.link} target='_blank'>
+              <Image
+                src={`https://puppeteer-screenshot-demo.vercel.app/api/screenshot?page=${job.link}`}
+                height='auto'
+                width='100%'
+                draggable={false}
+              />
+            </Link>
+          </Image.Browser>
         </div>
       ))}
     </div>
