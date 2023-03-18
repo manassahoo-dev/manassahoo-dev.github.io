@@ -1,3 +1,4 @@
+import { Card, Grid, Text } from '@geist-ui/core';
 import Head from 'next/head';
 import React from 'react';
 
@@ -13,19 +14,18 @@ function DSA() {
           key='desc'
         />
       </Head>
-      <div className='flex gap-4 justify-between'>
+
+      <Grid.Container gap={2}>
         {list.map((item, index) => (
-          <a
-            key={index}
-            href='#'
-            className='block max-w-sm p-4  bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700'
-          >
-            <h5 className='text-2xl font-semibold tracking-tight text-gray-900 dark:text-white'>
-              {item}
-            </h5>
-          </a>
+          <Grid xs={6}>
+            <Card shadow hoverable width={'100%'}>
+              <Text h4 margin={0}>
+                {item}
+              </Text>
+            </Card>
+          </Grid>
         ))}
-      </div>
+      </Grid.Container>
     </div>
   );
 }
