@@ -107,8 +107,6 @@ export default function Job() {
                 width='100%'
                 alt={job.name}
                 draggable={false}
-                loading='lazy'
-                placeholder='blur'
               />
             </Link>
           </Image.Browser>
