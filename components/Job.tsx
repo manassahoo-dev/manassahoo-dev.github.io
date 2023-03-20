@@ -1,4 +1,4 @@
-import { Button, Card, Image, Link, Text } from '@geist-ui/core';
+import { Card, Grid, Image, Link } from '@geist-ui/core';
 
 export default function Job() {
   const list = [
@@ -96,22 +96,21 @@ export default function Job() {
     },
   ];
   return (
-    <div className='grid grid-cols-4 gap-4'>
+    <Grid.Container gap={2} justify='center'>
       {list.map((job, index) => (
-        <div key={index}>
-          <Image.Browser url={job.link} anchorProps={{ rel: 'nofollow' }}>
-            <Link href={job.link} target='_blank'>
-              <Image
-                src={`assets/${job.name}.png`}
-                height='auto'
-                width='100%'
-                alt={job.name}
-                draggable={false}
-              />
-            </Link>
-          </Image.Browser>
-        </div>
+        <Grid xs={12} md={6}>
+          <Card shadow>
+            <Image
+              src={`assets/${job.name}.png`}
+              height='auto'
+              width='100%'
+              alt={job.name}
+              draggable={false}
+            />
+            <h4>{job.name}</h4>
+          </Card>
+        </Grid>
       ))}
-    </div>
+    </Grid.Container>
   );
 }
