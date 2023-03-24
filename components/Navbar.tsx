@@ -1,7 +1,6 @@
 import { Divider } from '@geist-ui/core';
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
 
 export default function Navbar() {
   return (
