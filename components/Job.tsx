@@ -99,18 +99,19 @@ export default function Job() {
     <Grid.Container gap={2} justify='center'>
       {list.map((job, index) => (
         <Grid xs={12} sm={8} lg={6}>
-          <Card shadow>
-            <Link href={job.link} target='_blank'></Link>
+          <Card shadow width='100%'>
             <Image
               src={`assets/${job.name}.png`}
-              height='auto'
-              width='100%'
               alt={job.name}
               draggable={false}
             />
-            <Text h5 margin={0}>
-              {job.name}
-            </Text>
+            <Card.Footer>
+              <Link href={job.link} target='_blank' color>
+                <Text h5 margin={0}>
+                  {job.name}
+                </Text>
+              </Link>
+            </Card.Footer>
           </Card>
         </Grid>
       ))}
