@@ -100,11 +100,13 @@ export default function Job() {
       {list.map((job, index) => (
         <Grid xs={12} sm={8} lg={6}>
           <Card shadow width='100%'>
-            <Image
-              src={`assets/${job.name}.png`}
-              alt={job.name}
-              draggable={false}
-            />
+            <Link href={job.link} target='_blank' color>
+              <Image
+                src={`assets/${job.name}.png`}
+                alt={job.name}
+                draggable={false}
+              />
+            </Link>
             <Card.Footer>
               <Link href={job.link} target='_blank' color>
                 <Text h5 margin={0}>
