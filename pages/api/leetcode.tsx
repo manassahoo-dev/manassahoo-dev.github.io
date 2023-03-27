@@ -4,29 +4,23 @@ const fs = require('fs');
 async function scrapeLeetCodeProblem(url) {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto(url, { waitUntil: 'networkidle0' });
+  await page.goto(url, { waitUntil: 'domcontentloaded' });
 
-  // Extract the problem title
-  const title = await page.$eval(
-    'div[data-cy="question-title"]',
-    (el) => el.innerText
-  );
+  await page.waitForSelector('.css-v3d350');
 
-  // Extract the problem description
+  const title = await page.$eval('div.css-v3d350', (el) => el.innerHTML);
   const description = await page.$eval(
-    'div[data-cy="description"]',
+    'div[data-cy="question-title"]',
     (el) => el.innerHTML
   );
-
-  // Extract the problem difficulty
   const difficulty = await page.$eval(
-    'span[data-cy="difficulty"]',
-    (el) => el.innerText
+    'div[data-cy="question-title"]',
+    (el) => el.innerHTML
   );
 
   // Extract the problem code template
   const code = await page.$eval(
-    'div[data-cy="code-area"] > div.ace_scroller > div.ace_content',
+    'div[data-cy="question-title"] > div.ace_scroller > div.ace_content',
     (el) => el.innerText
   );
 
