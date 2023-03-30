@@ -1,49 +1,48 @@
-const users = [
-  { id: 1, name: 'John' },
-  { id: 2, name: 'Jane' },
-  { id: 3, name: 'Bob' },
-];
+import { google } from 'googleapis';
 
-export default function handler(req, res) {
-  const { query, method } = req;
+const youtube = google.youtube({
+  version: 'v3',
+  auth: process.env.YOUTUBE_API_KEY,
+});
 
+export default async (req, res) => {
+  const { method, query } = req;
+
+  // Handle different API calls based on the HTTP method and query parameters
   switch (method) {
     case 'GET':
-      if (query.id) {
-        handleGetUserById(req, res);
-      } else if (query.search) {
-        handleSearchUsers(req, res);
+      if (query.playlistId) {
+        // Fetch videos in a playlist
+        const { data } = await youtube.playlists.list({
+          part: 'localizations',
+          // playlistId: query.playlistId,
+          channelId: 'UC5WO7o71wvxMxEtLRkPhiQQ',
+          maxResults: 100,
+        });
+
+        res.status(200).json(data.items);
+      } else if (query.videoId) {
+        // Fetch details of an individual video
+        const { data } = await youtube.videos.list({
+          part: 'snippet',
+          id: query.videoId,
+        });
+
+        res.status(200).json(data.items);
+      } else if (query.channelId) {
+        // Fetch details of a channel
+        const { data } = await youtube.channels.list({
+          part: 'snippet',
+          id: query.channelId,
+        });
+
+        res.status(200).json(data.items);
       } else {
-        handleGetAllUsers(req, res);
+        res.status(400).send('Invalid query parameters');
       }
       break;
     default:
-      res.status(405).json({ message: 'Method not allowed' });
+      res.status(405).send(`Method ${method} Not Allowed`);
+      break;
   }
-}
-
-function handleGetAllUsers(req, res) {
-  res.status(200).json(users);
-}
-
-function handleGetUserById(req, res) {
-  const { query } = req;
-  const { id } = query;
-  const user = users.find((user) => user.id === parseInt(id));
-  if (user) {
-    res.status(200).json(user);
-  } else {
-    res.status(404).json({ message: 'User not found' });
-  }
-}
-
-function handleSearchUsers(req, res) {
-  const { query } = req;
-  const { id } = query;
-  const user = users.find((user) => user.id === parseInt(id));
-  if (user) {
-    res.status(200).json(user);
-  } else {
-    res.status(404).json({ message: 'User not found' });
-  }
-}
+};
